@@ -147,47 +147,5 @@ li {
   border-top: 4px solid var(--accent);
 }
 
-/* Dark Mode Auto */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111827;
-    --surface: #171923;
-    --text: #f9fafb;
-    --dark: #cbd5e1;
-    --border: #2d3340;
-  }
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-  }
-
-  .tags span {
-    background: #1f2937;
-  }
-}
-
-@media (max-width: 960px) {
-  .case-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .preview-panel {
-    position: relative;
-    top: 0;
-  }
-}
-
-@media (max-width: 700px) {
-  .content-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .wide {
-    grid-column: span 1;
-  }
-
-  .hero h1 {
-    font-size: 1.8rem;
-  }
 }
